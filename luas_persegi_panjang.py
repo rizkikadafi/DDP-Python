@@ -1,0 +1,5 @@
+print("Mencari Luas Persegi Panjang")
+a = input("Masukkan ukuran panjang persegi panjang = ")
+b = input("Masukkan ukuran lebar persegi panjang = ")
+l = int(a) * int(b)
+print("Luas persegi panjang adalah ", l)
