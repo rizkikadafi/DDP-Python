@@ -31,7 +31,7 @@ while True:
         str_b = component[2].replace("x", "")
         if str_b == "":
             b = int(1)
-            if x[1] == "-":
+            if component[1] == "-":
                 b = -b
         else:
             b = int(str_b)
