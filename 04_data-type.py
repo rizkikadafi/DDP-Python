@@ -157,6 +157,24 @@ print(bool(""))
 # Set
 """
 - Set adalah tipe data pada python yang merupakan kumpulan data tak terurut (unordered-set)
+- Item dalam set unchangeable, artinya kita tidak bisa merubah item setelah set dibuat, tetapi kita bisa menghapus dan menambahkan item baru
+- set bisa berisi item dari berbagai tipe data
+- Dalam set, duplikat item tidak diizinkan
+- kita bisa membuat set dengan menggunakan built-in function -> set() atau langsung menuliskan urutan item di dalam kurung kurawal {} dan antar item dipisahkan dengan koma
 """
+set_1 = set({"apple", "banana", "cherry"})
+print(set_1)
+print(type(set_1))
 
+set_2 = {1, 2, "orange", False, "purple"}
+print(set_2)
+print(type(set_2))
+
+#adding set item
+set_2.add(3)
+
+#removing set item
+set_2.remove(False)
+
+print(set_2)
 
